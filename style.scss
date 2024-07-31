@@ -77,4 +77,29 @@ html {
       color: $green;
     }
   }
+  .serach-form {
+    position: absolute;
+    top: 115%;
+    right: 2rem;
+    width: 50rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    height: 5.5rem;
+    box-shadow: $box-shadow;
+    background: $white;
+
+    input {
+      height: 100%;
+      width: 100%;
+      padding: 0 1.2rem;
+      font-size: 1.6rem;
+      color: $black;
+      text-transform: none;
+    }
+  }
+}
+
+#menu-btn {
+  display: none;
 }
