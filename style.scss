@@ -89,6 +89,10 @@ html {
     box-shadow: $box-shadow;
     background: $white;
 
+    &.active {
+      top: 115%;
+    }
+
     input {
       height: 100%;
       width: 100%;
