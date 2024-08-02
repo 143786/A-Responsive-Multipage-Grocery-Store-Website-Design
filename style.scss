@@ -112,6 +112,17 @@ html {
       }
     }
   }
+
+  .shoping-cart {
+    position: absolute;
+    top: 115%;
+    right: 2rem;
+    background: $white;
+    border-radius: 0.5rem;
+    box-shadow: $box-shadow;
+    width: 35rem;
+    padding: 2rem;
+  }
 }
 
 #menu-btn {
